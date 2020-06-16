@@ -4,43 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textview1"
-        android:layout_centerInParent="true"
-        android:text="View 1"
-        android:textSize="30dp"
+        android:id="@+id/textred"
+        android:text="Red"
+        android:background="#f20"
+        android:textSize="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_above="@id/textview1"
-        android:layout_toStartOf="@id/textview1"
-        android:text="View 2"
-        android:textSize="30dp"
+        android:id="@+id/textgreend"
+        android:layout_below="@id/textred"
+        android:text="Green"
+        android:background="#80FF00"
+        android:textSize="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_below="@id/textview1"
-        android:layout_toStartOf="@id/textview1"
-        android:text="View 3"
-        android:textSize="30dp"
+        android:id="@+id/textblue"
+        android:layout_below="@id/textgreend"
+        android:text="Blue"
+        android:background="#0996F4"
+        android:textSize="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_above="@id/textview1"
-        android:layout_toEndOf="@id/textview1"
-        android:text="View 4"
-        android:textSize="30dp"
+        android:id="@+id/textorange"
+        android:layout_below="@id/textblue"
+        android:text="Orange"
+        android:background="#FFC107"
+        android:textSize="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_below="@id/textview1"
-        android:layout_toEndOf="@id/textview1"
-        android:text="View 5"
-        android:textSize="30dp"
+        android:id="@+id/textgray"
+        android:layout_below="@id/textorange"
+        android:text="Gray"
+        android:background="#A9B1A0"
+        android:textSize="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textpink"
+        android:layout_below="@id/textgray"
+        android:text="Pinl"
+        android:background="#80FF00"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
 
 
 </RelativeLayout>
