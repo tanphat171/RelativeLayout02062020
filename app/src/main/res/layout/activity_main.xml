@@ -7,63 +7,40 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:text="View1"
-        android:textSize="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_alignParentEnd="true"
-        android:text="View2"
-        android:textSize="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight=""
-        android:text="View3"
-        android:textSize="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignRight=""
-        android:text="View4"
-        android:textSize="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
+        android:id="@+id/textview1"
         android:layout_centerInParent="true"
-        android:text="View5"
+        android:text="View 1"
         android:textSize="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_centerInParent="true"
-        android:layout_alignParentTop="true"
-        android:text="View6"
+        android:layout_above="@id/textview1"
+        android:layout_toStartOf="@id/textview1"
+        android:text="View 2"
         android:textSize="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_centerInParent="true"
-        android:layout_alignParentBottom="true"
-        android:text="View7"
+        android:layout_below="@id/textview1"
+        android:layout_toStartOf="@id/textview1"
+        android:text="View 3"
         android:textSize="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_centerVertical="true"
-        android:text="View8"
+        android:layout_above="@id/textview1"
+        android:layout_toEndOf="@id/textview1"
+        android:text="View 4"
         android:textSize="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_centerVertical="true"
-        android:layout_alignParentEnd="true"
-        android:text="View9"
+        android:layout_below="@id/textview1"
+        android:layout_toEndOf="@id/textview1"
+        android:text="View 5"
         android:textSize="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
 
 </RelativeLayout>
