@@ -4,57 +4,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textred"
-        android:text="Red"
+        android:id="@+id/text4"
+        android:paddingHorizontal="40dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="true"
+        android:text="4"
+        android:background="#9C27B0"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/text3"
+        android:layout_toStartOf="@id/text4"
+        android:layout_above="@id/text4"
+        android:paddingHorizontal="40dp"
+        android:text="3"
+        android:background="#F68C0B"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_toStartOf="@id/text3"
+        android:layout_above="@id/text3"
+        android:paddingHorizontal="40dp"
+        android:text="2"
+        android:background="#0FEC18"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/text1"
+        android:layout_toStartOf="@id/text2"
+        android:layout_above="@id/text2"
+        android:paddingHorizontal="40dp"
+        android:text="1"
         android:background="#f20"
         android:textSize="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:id="@+id/textgreend"
-        android:layout_below="@id/textred"
-        android:text="Green"
-        android:background="#80FF00"
+        android:id="@+id/text5"
+        android:layout_toStartOf="@id/text4"
+        android:layout_below="@id/text4"
+        android:paddingHorizontal="40dp"
+        android:text="5"
+        android:background="#80615C"
         android:textSize="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:id="@+id/textblue"
-        android:layout_below="@id/textgreend"
-        android:text="Blue"
-        android:background="#0996F4"
+        android:id="@+id/text6"
+        android:layout_toStartOf="@id/text5"
+        android:layout_below="@id/text5"
+        android:paddingHorizontal="40dp"
+        android:text="6"
+        android:background="#E8AEA5"
         android:textSize="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:id="@+id/textorange"
-        android:layout_below="@id/textblue"
-        android:text="Orange"
-        android:background="#FFC107"
+        android:id="@+id/text7"
+        android:layout_toStartOf="@id/text6"
+        android:layout_below="@id/text6"
+        android:paddingHorizontal="40dp"
+        android:text="7"
+        android:background="#03A9F4"
         android:textSize="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-    <TextView
-        android:id="@+id/textgray"
-        android:layout_below="@id/textorange"
-        android:text="Gray"
-        android:background="#A9B1A0"
-        android:textSize="40dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:id="@+id/textpink"
-        android:layout_below="@id/textgray"
-        android:text="Pinl"
-        android:background="#80FF00"
-        android:textSize="40dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
 
 
 
